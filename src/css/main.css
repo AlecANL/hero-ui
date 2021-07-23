@@ -1,0 +1,60 @@
+@import './hero-image.css';
+@import './hero-description.css';
+
+:root {
+  --just-blue: #1b90fc;
+  --just-black: #202020;
+  --just-white: #fff;
+  --just-gray: #929292;
+  --robotoCondensedBold: 'RobotoCondensed-Bold', sans-serif;
+  --robotoCondensedRegular: 'RobotoCondensed-Regular', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+  --headline1: bold 2.5rem / 2.875rem var(--robotoCondensedBold);
+  --subTitle1: bold 1.625rem / 1.5rem var(--robotoCondensedBold);
+  --body1Bold: bold 1rem / 1.5rem var(--roboto);
+  --body1Regular: normal 1rem / 1.5rem var(--roboto);
+  --body2Bold: bold 0.875rem / 1.5rem var(--roboto);
+  --body2Regular: normal 0.875rem / 1.5rem var(--roboto);
+  --captionRegular: normal 0.75rem / 1.5rem var(--roboto);
+  --captionRegular: bold 0.75rem / 1.5rem var(--roboto);
+  --buttonFont: bold 0.875rem / 1rem var(--roboto);
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('../assets/fonts/RobotoCondensed-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('../assets/fonts/RobotoCondensed-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: 'RobotoCondensed-Regular';
+  color: var(--just-white);
+}
+img {
+  max-inline-size: 100%;
+}
+.wrapper {
+  max-inline-size: 1200px;
+  margin: auto;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 25rem;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    grid-template-areas: 'hero-description hero-image';
+    grid-template-columns: 37.5rem 1fr;
+    grid-template-rows: 100vh;
+  }
+}
