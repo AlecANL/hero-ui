@@ -3,16 +3,12 @@
 </div>
 
 # Hero UI
+
 Este desafío es perfecto si está buscando probar tus habilidades de CSS, implementando el hero de la serie de LOKY.
 
-## Desktop
+## Overview
 
-<img width="400px"  src="https://raw.githubusercontent.com/uxcristopher/imagenes/main/Readmes/Hero%20UI/hero-desktop.png" />
-
-
-## Mobile
-
-<img width="400px"  src="https://raw.githubusercontent.com/uxcristopher/imagenes/main/Readmes/Hero%20UI/hero-mobile.png" />
+![screenshot](src/assets/images/design.png)
 
 ## Disclaimer
 
@@ -37,4 +33,3 @@ Recuerda mandar tu proyecto a revisión, si aún no conoces como funciona el pro
 Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
 
 Diseñado con ♥️ en leonidasesteban.com
-
